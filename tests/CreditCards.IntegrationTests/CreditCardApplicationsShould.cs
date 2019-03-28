@@ -6,6 +6,7 @@ using Xunit;
 
 namespace CreditCards.IntegrationTests
 {
+
     public class CreditCardApplicationsShould : IClassFixture<TestServerFixture>
     {
         private readonly TestServerFixture _fixture;
